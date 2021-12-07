@@ -40,22 +40,7 @@ class Xee_PHP {
     require $lxldir . 'module_loader.php';
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   }
-  //---------------------------------------------------------------------------
-  public function addHeader($__meta = array()) {
-    $__meta = array(
-      'base_css' => array(
-        '/public/css/w3.css',
-      ),
-      'base_js' => array(
-        '/public/js/jquery-3.6.0.min.js',
-      ),
-    );
-    require APP_COMMON_PATH . 'header.php';
-  }
-  //---------------------------------------------------------------------------
-  public function addFooter($vars = array()) {
-    require APP_COMMON_PATH . 'footer.php';
-  }
+  
   //---------------------------------------------------------------------------
   public function init() {
     $activeClass = $this->__WHITELIST_URL[$this->__URL[0]];

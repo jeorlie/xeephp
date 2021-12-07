@@ -1,0 +1,56 @@
+2021/12/07 11:06:36 [error] 8152#5924: *16 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected token "}" in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:06:50 [error] 8152#5924: *16 FastCGI sent in stderr: "PHP Warning:  Constant APP_DOCUMENT_ROOT already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 9
+PHP Warning:  Constant APP_VERSION already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 10
+PHP Warning:  Constant APP_BUILD_NUMBER already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 11
+PHP Warning:  Constant APP_SYSTEM_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 13
+PHP Warning:  Constant APP_MODULES_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 14
+PHP Warning:  Constant APP_VIEWS_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 15
+PHP Warning:  Constant APP_COMMON_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 16
+PHP Warning:  Constant APP_VENDORS_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 17
+PHP Warning:  Constant APP_HELPERS_PATH already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 18
+PHP Warning:  Constant CLIENT_APP_NAME already defined in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\define.php on line 21
+PHP Fatal error:  Cannot declare class Xee_Functions, because the name is already in use in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\functions.php on li
+2021/12/07 11:14:17 [error] 8152#5924: *39 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function addFooter() in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php:22
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#3 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:14:54 [error] 8152#5924: *39 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function addFooter() in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php:22
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#3 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:15:14 [error] 8152#5924: *39 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function addFooter() in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php:22
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#3 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:17:20 [error] 8152#5924: *48 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function addFooter() in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php:22
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#3 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:17:24 [error] 8152#5924: *48 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function addFooter() in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php:22
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#3 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
+2021/12/07 11:52:08 [error] 8152#5924: *57 FastCGI sent in stderr: "PHP Warning:  require(C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6/html/personal/xeephp\app\views\index/index.tpl.php): Failed to open stream: No such file or directory in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\helpers\view.helper.php on line 35
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6/html/personal/xeephp\app\views\index/index.tpl.php' (include_path='.;C:\php\pear') in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\helpers\view.helper.php:35
+Stack trace:
+#0 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\modules\index\index.php(22): App_View_Template->addFile('index/index')
+#1 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(49): Index_Router_Xee->init()
+#2 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\xeephp\index.php(63): Xee_PHP->init()
+#3 C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\index.php(10): require('C:\\Users\\jeorli...')
+#4 {main}
+  thrown in C:\Users\jeorliefx\Documents\Developer\NMP-Server-master\nginx-1.9.6\html\personal\xeephp\app\helpers\view.helper.php on line 35" while reading response header from upstream, client: 127.0.0.1, server: xeephp.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "xeephp.localhost"
